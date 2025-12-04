@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>hello a todos</title>
+    <link rel="stylesheet" href="testeStile.css">
+</head>
+<body>
+    {%if idade >= 18: %}
+        {%for i in range(idade)%}
+            <h1 class = "titulo">Olá {{nome}}, sua idade é {{idade}}</h1>
+        {% endfor %}
+    {% else %}
+        <h1>Não quero que voce acesse essa pagina</h1>
+    {% endif %}
+</body>
+</html>
