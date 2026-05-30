@@ -7,8 +7,9 @@ necessario aprender alguns requisitos importantes para entender isso.
 
 ## tutoriais
 
-- [ ]  tuttorial 1 [ # Python FastAPI Tutorial: Build a REST API in 15 Minutes ](https://youtu.be/iWS9ogMPOI0?si=NWUbM6UQF5TetlsG)
+- [X]  tuttorial 1 [ # Python FastAPI Tutorial: Build a REST API in 15 Minutes ](https://youtu.be/iWS9ogMPOI0?si=NWUbM6UQF5TetlsG)
 - [X]  tutorial 2 [ # FastAPI: do zero à arquitetura profissional (sem caos) ](https://youtu.be/HAz1eJsRB4M?si=Hj7ai7ZVJrcubOcB)
+- [ ]  aplicar conhecimento em sistema de tasks ( so com fastAPi, use sqlite(CRUD))
 
 ## lendo documentação
 
@@ -22,9 +23,17 @@ Comece pela documentação - muito boa
 @app.get()
 
 - esse @ se chama **decorato**
-- documentação da API que esta desenvolvendo
-  You can see it directly at: http://127.0.0.1:8000/openapi.json.
+-
+
+documentação da API que esta desenvolvendo
+
+- You can see it directly at: http://127.0.0.1:8000/openapi.json.
   - abaixo do nome FASTAPI de docs é tem o link.
+
+endpoint
+
+- é onde é possivel enviar ou receber dados
+- get task/
 
 ### type hints
 
