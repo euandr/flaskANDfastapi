@@ -70,9 +70,9 @@ O sistema deve:
 
 ### Requisitos
 
-* [ ]  Aprender o básico de SQLite.
+* [X]  Aprender o básico de SQLite.
 * [ ]  Criar o arquivo do banco de dados.
-* [ ]  Criar a tabela `tasks`.
+* [X]  Criar a tabela `tasks`.
 * [ ]  Conectar o FastAPI ao SQLite.
 * [ ]  Implementar o endpoint de criação utilizando o banco.
 * [ ]  Implementar o endpoint de listagem utilizando o banco.
@@ -100,4 +100,3 @@ Praticar a integração entre FastAPI e banco de dados, compreendendo conceitos 
 * Separação entre API e camada de armazenamento.
 
 > Ao finalizar esta etapa, suas tarefas deixarão de existir apenas na memória da aplicação e passarão a ser armazenadas permanentemente em um banco de dados SQLite. 🚀
->
